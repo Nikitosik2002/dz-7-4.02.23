@@ -24,7 +24,7 @@ for (int i = 0; i < matrix.GetLength(0) ; i++)
 
          for (int z = 0; z < matrix.GetLength(1) - 1; z++)
         {
-            if (matrix[i, z] < matrix[i, z + 1]) //для изменения сортировки поменять знак < на противоположный
+            if (matrix[i, z] < matrix[i, z + 1]) 
             {
                 int temp = 0;
                 temp = matrix[i, z];
